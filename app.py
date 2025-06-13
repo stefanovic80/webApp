@@ -9,7 +9,7 @@ def home():
 
 @app.route("/stracazzarola/")
 def home2():
-    return "aristracazzaraccappottabilmente!")
+    return "aristracazzaraccappottabilmente!"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
