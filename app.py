@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return "cazzarola!"
 
-@app.route("/stracazzarola!")
+@app.route("/stracazzarola/")
 def home2():
     return "aristracazzaraccappottabilmente!")
 
