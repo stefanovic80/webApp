@@ -2,13 +2,24 @@
 <html>
 <head>
     <title>Black Body Spectrum</title>
+
+
+<style>
+    body {
+        background-color: #a0e6cf; /* verde acqua riposante */
+        color: #000; /* testo nero leggibile */
+        font-family: sans-serif;
+    }
+</style>
 </head>
-<body>
+
+    <body>
+
     <h1>Radiation emitted by a source at given surface temperature</h1>
     <p>This function works for a wide range of physical situations. The sun emits a black body radiation at a temperature of about 6000 kelvin</p>
     <img src="{{ url_for('static', filename='img/blackBodySpectrum.png') }}" 
     	alt="Black body spectrum" 
 	width="800" height="600">
-</body>
+    </body>
 </html>
 
