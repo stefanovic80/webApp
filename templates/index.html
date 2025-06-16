@@ -4,19 +4,29 @@
     <title>Black Body Spectrum</title>
 
 
-<style>
-    body {
-        background-color: #a0e6cf; /* verde acqua riposante */
-        color: #000; /* testo nero leggibile */
-        font-family: sans-serif;
-    }
-</style>
+	<style>
+    	body {
+        	background-color: #a0e6cf; /* verde acqua riposante */
+        	color: #000; /* testo nero leggibile */
+        	font-family: sans-serif;
+    	}
+	
+	</style>
+	<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
 </head>
 
     <body>
 
     <h1>Radiation emitted by a source at given surface temperature</h1>
     <p>This function works for a wide range of physical situations. The sun emits a black body radiation at a temperature of about 6000 kelvin</p>
+
+    <p>Black Body formula</p>
+	<p>
+  		\( B(\nu, T) = \frac{2h\nu^3}{c^2} \frac{1}{e^{\frac{h\nu}{k_B T}} - 1} \)
+	</p>
+
+
     <img src="{{ url_for('static', filename='img/blackBodySpectrum.png') }}" 
     	alt="Black body spectrum" 
 	width="800" height="600">
