@@ -18,18 +18,17 @@
 
     <body>
 
-    <h1>Radiation emitted by a source at given surface temperature</h1>
-    <p>This function works for a wide range of physical situations. The sun emits a black body radiation at a temperature of about 6000 kelvin</p>
+    <h3 style="font-size: 2em;" >Radiation emitted by a source at given surface temperature</h3>
+    <p style="font-size: 2.0em;">Black body Model is widely applied in many different situations: forom the spectral shape of the sun emitted radiation, which  is a black body spectrum at a temperature of 6000 kelvin, to the LED lights used for illumination purpose, to the LED lights used for illumination purposes, which are available as cold and warm light colour</p>
 
-    <p>Black Body formula</p>
-	<p>
-  		\( B(\nu, T) = \frac{2h\nu^3}{c^2} \frac{1}{e^{\frac{h\nu}{k_B T}} - 1} \)
+    	<p style="font-size: 2.5em;">
+  		\( B(\lambda, T) = \frac{2hc}{\lambda^3} \frac{1}{e^{\frac{hc}{k_B T\lambda}} - 1} \)
 	</p>
 
 
     <img src="{{ url_for('static', filename='img/blackBodySpectrum.png') }}" 
     	alt="Black body spectrum" 
-	width="800" height="600">
+	width="1100" height="700">
 	
     <!--
     <h1>Polarization coefficient and the Clausius-Mossotti Model</h1>
