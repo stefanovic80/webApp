@@ -6,11 +6,11 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     #return "it's working, cazzarola!"
-    return render_template('index.html')
+    return render_template('black_body.html')
 
-@app.route("/stracazzarola/")
+@app.route("/clausius_mossotti_model/")
 def home2():
-    return "aristracazzaraccappottabilmente!"
+    return render_template('clausius_mossotti_model.html')
 
 if __name__ == "__main__":
     #app.run(port = 5000)
